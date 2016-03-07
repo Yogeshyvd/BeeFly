@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D043FE11C8992F200F28D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D043FE01C8992F200F28D1B /* AppDelegate.swift */; };
+		0D043FE31C8992F200F28D1B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D043FE21C8992F200F28D1B /* GameScene.sks */; };
+		0D043FE51C8992F200F28D1B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D043FE41C8992F200F28D1B /* GameScene.swift */; };
+		0D043FE71C8992F200F28D1B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D043FE61C8992F200F28D1B /* GameViewController.swift */; };
+		0D043FEA1C8992F200F28D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D043FE81C8992F200F28D1B /* Main.storyboard */; };
+		0D043FEC1C8992F200F28D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D043FEB1C8992F200F28D1B /* Assets.xcassets */; };
+		0D043FEF1C8992F200F28D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D043FED1C8992F200F28D1B /* LaunchScreen.storyboard */; };
+		0D043FFA1C8992F200F28D1B /* BeeFlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D043FF91C8992F200F28D1B /* BeeFlyTests.swift */; };
+		0D0440051C8992F200F28D1B /* BeeFlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0440041C8992F200F28D1B /* BeeFlyUITests.swift */; };
+		0D1D94C81C8D1D2300C7A7BC /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D94C71C8D1D2300C7A7BC /* RandomFunction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D043FF61C8992F200F28D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D043FD51C8992F200F28D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D043FDC1C8992F200F28D1B;
+			remoteInfo = BeeFly;
+		};
+		0D0440011C8992F200F28D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D043FD51C8992F200F28D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D043FDC1C8992F200F28D1B;
+			remoteInfo = BeeFly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D043FDD1C8992F200F28D1B /* BeeFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D043FE01C8992F200F28D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D043FE21C8992F200F28D1B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0D043FE41C8992F200F28D1B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0D043FE61C8992F200F28D1B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0D043FE91C8992F200F28D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D043FEB1C8992F200F28D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D043FEE1C8992F200F28D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D043FF01C8992F200F28D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D043FF51C8992F200F28D1B /* BeeFlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeFlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D043FF91C8992F200F28D1B /* BeeFlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeFlyTests.swift; sourceTree = "<group>"; };
+		0D043FFB1C8992F200F28D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0440001C8992F200F28D1B /* BeeFlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeFlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0440041C8992F200F28D1B /* BeeFlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeFlyUITests.swift; sourceTree = "<group>"; };
+		0D0440061C8992F200F28D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1D94C71C8D1D2300C7A7BC /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D043FDA1C8992F200F28D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D043FF21C8992F200F28D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D043FFD1C8992F200F28D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D043FD41C8992F200F28D1B = {
+			isa = PBXGroup;
+			children = (
+				0D043FDF1C8992F200F28D1B /* BeeFly */,
+				0D043FF81C8992F200F28D1B /* BeeFlyTests */,
+				0D0440031C8992F200F28D1B /* BeeFlyUITests */,
+				0D043FDE1C8992F200F28D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D043FDE1C8992F200F28D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D043FDD1C8992F200F28D1B /* BeeFly.app */,
+				0D043FF51C8992F200F28D1B /* BeeFlyTests.xctest */,
+				0D0440001C8992F200F28D1B /* BeeFlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D043FDF1C8992F200F28D1B /* BeeFly */ = {
+			isa = PBXGroup;
+			children = (
+				0D043FE01C8992F200F28D1B /* AppDelegate.swift */,
+				0D043FE21C8992F200F28D1B /* GameScene.sks */,
+				0D043FE41C8992F200F28D1B /* GameScene.swift */,
+				0D043FE61C8992F200F28D1B /* GameViewController.swift */,
+				0D043FE81C8992F200F28D1B /* Main.storyboard */,
+				0D043FEB1C8992F200F28D1B /* Assets.xcassets */,
+				0D043FED1C8992F200F28D1B /* LaunchScreen.storyboard */,
+				0D043FF01C8992F200F28D1B /* Info.plist */,
+				0D1D94C71C8D1D2300C7A7BC /* RandomFunction.swift */,
+			);
+			path = BeeFly;
+			sourceTree = "<group>";
+		};
+		0D043FF81C8992F200F28D1B /* BeeFlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D043FF91C8992F200F28D1B /* BeeFlyTests.swift */,
+				0D043FFB1C8992F200F28D1B /* Info.plist */,
+			);
+			path = BeeFlyTests;
+			sourceTree = "<group>";
+		};
+		0D0440031C8992F200F28D1B /* BeeFlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D0440041C8992F200F28D1B /* BeeFlyUITests.swift */,
+				0D0440061C8992F200F28D1B /* Info.plist */,
+			);
+			path = BeeFlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D043FDC1C8992F200F28D1B /* BeeFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0440091C8992F200F28D1B /* Build configuration list for PBXNativeTarget "BeeFly" */;
+			buildPhases = (
+				0D043FD91C8992F200F28D1B /* Sources */,
+				0D043FDA1C8992F200F28D1B /* Frameworks */,
+				0D043FDB1C8992F200F28D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeFly;
+			productName = BeeFly;
+			productReference = 0D043FDD1C8992F200F28D1B /* BeeFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D043FF41C8992F200F28D1B /* BeeFlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D04400C1C8992F200F28D1B /* Build configuration list for PBXNativeTarget "BeeFlyTests" */;
+			buildPhases = (
+				0D043FF11C8992F200F28D1B /* Sources */,
+				0D043FF21C8992F200F28D1B /* Frameworks */,
+				0D043FF31C8992F200F28D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D043FF71C8992F200F28D1B /* PBXTargetDependency */,
+			);
+			name = BeeFlyTests;
+			productName = BeeFlyTests;
+			productReference = 0D043FF51C8992F200F28D1B /* BeeFlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D043FFF1C8992F200F28D1B /* BeeFlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D04400F1C8992F200F28D1B /* Build configuration list for PBXNativeTarget "BeeFlyUITests" */;
+			buildPhases = (
+				0D043FFC1C8992F200F28D1B /* Sources */,
+				0D043FFD1C8992F200F28D1B /* Frameworks */,
+				0D043FFE1C8992F200F28D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D0440021C8992F200F28D1B /* PBXTargetDependency */,
+			);
+			name = BeeFlyUITests;
+			productName = BeeFlyUITests;
+			productReference = 0D0440001C8992F200F28D1B /* BeeFlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D043FD51C8992F200F28D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tuan_Quang;
+				TargetAttributes = {
+					0D043FDC1C8992F200F28D1B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0D043FF41C8992F200F28D1B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0D043FDC1C8992F200F28D1B;
+					};
+					0D043FFF1C8992F200F28D1B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0D043FDC1C8992F200F28D1B;
+					};
+				};
+			};
+			buildConfigurationList = 0D043FD81C8992F200F28D1B /* Build configuration list for PBXProject "BeeFly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D043FD41C8992F200F28D1B;
+			productRefGroup = 0D043FDE1C8992F200F28D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D043FDC1C8992F200F28D1B /* BeeFly */,
+				0D043FF41C8992F200F28D1B /* BeeFlyTests */,
+				0D043FFF1C8992F200F28D1B /* BeeFlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D043FDB1C8992F200F28D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D043FE31C8992F200F28D1B /* GameScene.sks in Resources */,
+				0D043FEF1C8992F200F28D1B /* LaunchScreen.storyboard in Resources */,
+				0D043FEC1C8992F200F28D1B /* Assets.xcassets in Resources */,
+				0D043FEA1C8992F200F28D1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D043FF31C8992F200F28D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D043FFE1C8992F200F28D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D043FD91C8992F200F28D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D043FE51C8992F200F28D1B /* GameScene.swift in Sources */,
+				0D043FE71C8992F200F28D1B /* GameViewController.swift in Sources */,
+				0D1D94C81C8D1D2300C7A7BC /* RandomFunction.swift in Sources */,
+				0D043FE11C8992F200F28D1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D043FF11C8992F200F28D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D043FFA1C8992F200F28D1B /* BeeFlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D043FFC1C8992F200F28D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0440051C8992F200F28D1B /* BeeFlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D043FF71C8992F200F28D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D043FDC1C8992F200F28D1B /* BeeFly */;
+			targetProxy = 0D043FF61C8992F200F28D1B /* PBXContainerItemProxy */;
+		};
+		0D0440021C8992F200F28D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D043FDC1C8992F200F28D1B /* BeeFly */;
+			targetProxy = 0D0440011C8992F200F28D1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D043FE81C8992F200F28D1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D043FE91C8992F200F28D1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D043FED1C8992F200F28D1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D043FEE1C8992F200F28D1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D0440071C8992F200F28D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D0440081C8992F200F28D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D04400A1C8992F200F28D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeeFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.tuanquanghpvn.BeeFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D04400B1C8992F200F28D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeeFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.tuanquanghpvn.BeeFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D04400D1C8992F200F28D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = BeeFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.tuanquanghpvn.BeeFlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeFly.app/BeeFly";
+			};
+			name = Debug;
+		};
+		0D04400E1C8992F200F28D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeeFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.tuanquanghpvn.BeeFlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeFly.app/BeeFly";
+			};
+			name = Release;
+		};
+		0D0440101C8992F200F28D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = BeeFlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.tuanquanghpvn.BeeFlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeeFly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0D0440111C8992F200F28D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeeFlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.tuanquanghpvn.BeeFlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeeFly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D043FD81C8992F200F28D1B /* Build configuration list for PBXProject "BeeFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0440071C8992F200F28D1B /* Debug */,
+				0D0440081C8992F200F28D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D0440091C8992F200F28D1B /* Build configuration list for PBXNativeTarget "BeeFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D04400A1C8992F200F28D1B /* Debug */,
+				0D04400B1C8992F200F28D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D04400C1C8992F200F28D1B /* Build configuration list for PBXNativeTarget "BeeFlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D04400D1C8992F200F28D1B /* Debug */,
+				0D04400E1C8992F200F28D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D04400F1C8992F200F28D1B /* Build configuration list for PBXNativeTarget "BeeFlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0440101C8992F200F28D1B /* Debug */,
+				0D0440111C8992F200F28D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D043FD51C8992F200F28D1B /* Project object */;
+}
