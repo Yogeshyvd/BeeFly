@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GameScene.didBeginContact(SKPhysicsContact) -&gt; ():GameScene.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bodyContactA.categoryBitMask">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
