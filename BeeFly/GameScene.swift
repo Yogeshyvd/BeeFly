@@ -66,7 +66,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         src.zPosition = 4
         src.setScale(0.5)
         
-        lblScore = SKLabelNode(fontNamed: "debussy")
+//        lblScore = SKLabelNode(fontNamed: "debussy")
+        lblScore = SKLabelNode()
         lblScore.text = String(0)
         lblScore.zPosition = 4
         lblScore.fontSize = 40

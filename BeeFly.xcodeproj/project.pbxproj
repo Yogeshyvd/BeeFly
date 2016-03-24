@@ -16,8 +16,8 @@
 		0D043FEF1C8992F200F28D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D043FED1C8992F200F28D1B /* LaunchScreen.storyboard */; };
 		0D043FFA1C8992F200F28D1B /* BeeFlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D043FF91C8992F200F28D1B /* BeeFlyTests.swift */; };
 		0D0440051C8992F200F28D1B /* BeeFlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0440041C8992F200F28D1B /* BeeFlyUITests.swift */; };
+		0D19E8221CA3794B000AED5E /* debussy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D19E8211CA3794B000AED5E /* debussy.ttf */; };
 		0D1D94C81C8D1D2300C7A7BC /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D94C71C8D1D2300C7A7BC /* RandomFunction.swift */; };
-		0D5910DE1C900A2F005EE0BD /* debussy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D5910DD1C900A2F005EE0BD /* debussy.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,8 @@
 		0D0440001C8992F200F28D1B /* BeeFlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeFlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0440041C8992F200F28D1B /* BeeFlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeFlyUITests.swift; sourceTree = "<group>"; };
 		0D0440061C8992F200F28D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D19E8211CA3794B000AED5E /* debussy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = debussy.ttf; path = ../../../../Downloads/debussy.ttf; sourceTree = "<group>"; };
 		0D1D94C71C8D1D2300C7A7BC /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
-		0D5910DD1C900A2F005EE0BD /* debussy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = debussy.ttf; path = ../../../../Downloads/debussy.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 				0D043FE61C8992F200F28D1B /* GameViewController.swift */,
 				0D043FE81C8992F200F28D1B /* Main.storyboard */,
 				0D043FEB1C8992F200F28D1B /* Assets.xcassets */,
-				0D5910DD1C900A2F005EE0BD /* debussy.ttf */,
+				0D19E8211CA3794B000AED5E /* debussy.ttf */,
 				0D043FED1C8992F200F28D1B /* LaunchScreen.storyboard */,
 				0D043FF01C8992F200F28D1B /* Info.plist */,
 				0D1D94C71C8D1D2300C7A7BC /* RandomFunction.swift */,
@@ -245,7 +245,7 @@
 				0D043FEF1C8992F200F28D1B /* LaunchScreen.storyboard in Resources */,
 				0D043FEC1C8992F200F28D1B /* Assets.xcassets in Resources */,
 				0D043FEA1C8992F200F28D1B /* Main.storyboard in Resources */,
-				0D5910DE1C900A2F005EE0BD /* debussy.ttf in Resources */,
+				0D19E8221CA3794B000AED5E /* debussy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
